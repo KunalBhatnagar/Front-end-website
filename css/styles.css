@@ -1,0 +1,141 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+.navbar{
+  padding: 0 0 10%;
+  font-size: 1.3rem;
+}
+.title-image{
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+  /* feature */
+
+
+#features{
+  position: relative;
+  padding: 7% 15%;
+  background-color: white;
+
+}
+
+.feature-box{
+text-align: center;
+padding: 5%;
+
+}
+.f{
+  color: #8f8f8f;
+  font-weight: 300;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonial */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+  width: 13%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+    }
+    .press-logo{
+      width: 15%;
+      margin: 20px 20px 50px;
+    }
+
+/* pricing */
+#pricing{
+  padding:100px ;
+    text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15% 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+#footer{
+  text-align:center;
+  padding: 3% 15% 2%;
+  color: #8f8f8f;
+}
+.social-icon{
+  color: black;
+  margin: 10px;
+  margin-bottom: 10px;
+}
